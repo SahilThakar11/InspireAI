@@ -1,0 +1,66 @@
+<svg
+  width="500"
+  height="150"
+  viewBox="0 10 200 100"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+   <linearGradient
+      id="animateGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="0%"
+    >
+      <stop offset="0%" id="stop1" style="stop-color:#64EDE4;stop-opacity:1" />
+      <stop offset="100%" id="stop2" style="stop-color:#7664ED;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      @keyframes gradientAnimation {
+        0% {
+          stop-color: #64EDE4;
+        }
+        20% {
+          stop-color: #64EDB8;
+        }
+        40% {
+          stop-color: #EDC764;
+        }
+        60% {
+          stop-color: #B864ED;
+        }
+        80% {
+          stop-color: #7664ED;
+        }
+        100% {
+          stop-color: #64EDE4;
+        }
+      }
+      #stop1 {
+        animation: gradientAnimation 10s infinite ease-in-out;
+      }
+      #stop2 {
+        animation: gradientAnimation 10s infinite ease-in-out reverse;
+      }
+    </style>
+  </defs>
+
+  <text
+    x="10"
+    y="50"
+    font-family="Arial, sans-serif"
+    font-size="40"
+    fill="url(#animateGradient)"
+    font-weight="bold"
+  >
+    InspireAI
+  </text>
+
+  <path
+    d="M 10 65 C 60 85, 130 85, 190 65"
+    stroke="url(#animateGradient)"
+    stroke-width="5"
+    fill="none"
+  />
+</svg>

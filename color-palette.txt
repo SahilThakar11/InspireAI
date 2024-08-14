@@ -1,0 +1,10 @@
+-- light theme
+
+Primary: #64EDE4
+Secondary : #7664ED
+bg: #F7F7F7 
+text: #2F4F4F 
+badge: #EDC764
+
+-- Dark theme
+
